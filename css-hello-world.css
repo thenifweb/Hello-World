@@ -9,6 +9,11 @@ h1 {
 	from {color: #ffffff; text-shadow: 4px 4px 2px grey; }
 	to{color: #070058; text-shadow: 1px 1px 1px orange;}	
 }
+@-webkit-keyframes hello-world {
+	from {color: #ffffff; text-shadow: 4px 4px 2px grey; }
+	to{color: #070058; text-shadow: 1px 1px 1px orange;}	
+}
 #hello-world {
 	animation:  hello-world 3s linear  infinite alternate;
+	-webkit-animation : hello-world 3s linear  infinite alternate;
 }
